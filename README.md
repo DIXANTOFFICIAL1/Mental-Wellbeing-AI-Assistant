@@ -61,25 +61,6 @@ The solution follows responsible AI principles by avoiding medical claims and pr
 
 ---
 
-## 🏗️ Project Structure
-Mental-Wellbeing-AI-Assistant/
-│
-├── app.py
-├── requirements.txt
-├── .gitignore
-│
-├── services/
-│ └── ai_service.py
-│
-├── static/
-│ └── style.css
-│
-├── templates/
-│ ├── index.html
-│ └── result.html
-
----
-
 ## ▶️ How to Run the Project
 1. Clone the repository
 2. Install dependencies:
