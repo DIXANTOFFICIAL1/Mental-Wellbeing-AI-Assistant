@@ -10,7 +10,7 @@ The **AI-Powered Mental Well-Being Support Assistant** is a web-based applicatio
 
 This project focuses on **preventive mental health awareness**, making AI accessible, ethical, and useful for everyday well-being support.
 
-⚠️ This tool is for awareness and guidance only and does not provide medical advice or diagnosis.
+⚠️ This tool is for awareness and guidance only and does not provide medical advice or diagnosis. 
 
 ---
 
