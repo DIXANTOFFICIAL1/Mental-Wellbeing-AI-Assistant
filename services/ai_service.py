@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 load_dotenv()
-
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 model = genai.GenerativeModel("models/text-bison-001")
@@ -59,6 +58,7 @@ User message: {text}
         return {
             "level": f"{data['stress_level']} Stress",
             "score": int(data["stress_score"]),
+            
             "color": color_map.get(data["stress_level"], "orange"),
             "reasoning": data["reasoning"],
             "plan": data["daily_plan"],
