@@ -44,7 +44,6 @@ JSON format:
 User mood: {mood}
 User message: {text}
 """
-
     try:
         response = model.generate_content(prompt)
         data = extract_json(response.text)
