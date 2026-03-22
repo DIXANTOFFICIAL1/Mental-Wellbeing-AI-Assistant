@@ -18,7 +18,6 @@ def extract_json(text):
         return json.loads(match.group())
     raise ValueError("No valid JSON found")
 
-
 def analyze_wellbeing(mood, text):
     prompt = f"""
 You are an AI mental well-being support assistant.
