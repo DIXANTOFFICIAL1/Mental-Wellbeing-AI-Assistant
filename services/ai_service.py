@@ -66,7 +66,6 @@ User message: {text}
      
         return rule_based_fallback(mood, text)
 
-
 def rule_based_fallback(mood, text):
     text_lower = text.lower()
 
