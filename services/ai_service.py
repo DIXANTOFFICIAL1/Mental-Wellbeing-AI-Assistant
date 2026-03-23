@@ -50,7 +50,7 @@ User message: {text}
             "Low": "green",
             "Moderate": "orange",
             "High": "red"
-        }
+    }
 
         return {
             "level": f"{data['stress_level']} Stress",
