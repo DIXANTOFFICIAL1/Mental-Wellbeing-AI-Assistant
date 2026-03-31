@@ -11,6 +11,7 @@ def index():
 
         result = analyze_wellbeing(mood, text)
         return render_template("result.html", result=result)
+        
     return render_template("index.html")
 
 if __name__ == "__main__":
