@@ -32,7 +32,7 @@ body {
 }
 
 h1, h2 {
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #667eeb, #764ba2);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
