@@ -19,6 +19,7 @@ def extract_json(text):
     raise ValueError("No valid JSON found")
 
 def analyze_wellbeing(mood, text):
+    
     prompt = f"""
 You are an AI mental well-being support assistant.
 This is NOT medical advice.
