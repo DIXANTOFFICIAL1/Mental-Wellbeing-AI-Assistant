@@ -8,7 +8,6 @@ def index():
     if request.method == "POST":
         mood = request.form.get("mood")
         text = request.form.get("feeling")
-
         
         result = analyze_wellbeing(mood, text)
         return render_template("result.html", result=result)
