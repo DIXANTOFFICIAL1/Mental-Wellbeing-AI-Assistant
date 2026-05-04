@@ -106,7 +106,7 @@ def rule_based_fallback(mood, text):
         level = "High"
         plan = {
             "morning": "Slow breathing exercises and a short walk",
-            "afternoon": "Limit workload and take rest",
+            "afternoon": "Limit workload and take rest regularly",
             "evening": "Journaling or guided relaxation"
         }
         tips = [
