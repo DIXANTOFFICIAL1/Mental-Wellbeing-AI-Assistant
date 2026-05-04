@@ -114,7 +114,6 @@ def rule_based_fallback(mood, text):
             "Avoid overworking",
             "Seek professional support if needed"
         ]
-
     
     return {
         "level": f"{level} Stress",
