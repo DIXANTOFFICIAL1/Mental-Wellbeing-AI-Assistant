@@ -115,6 +115,7 @@ def rule_based_fallback(mood, text):
             "Seek professional support if needed"
         ]
 
+    
     return {
         "level": f"{level} Stress",
         "score": stress_score,
