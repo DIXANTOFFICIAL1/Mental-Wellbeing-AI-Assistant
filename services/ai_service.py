@@ -89,6 +89,7 @@ def rule_based_fallback(mood, text):
             "Stay socially connected"
         ]
 
+    
     elif stress_score < 70:
         level = "Moderate"
         plan = {
