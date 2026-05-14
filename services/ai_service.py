@@ -23,7 +23,6 @@ def analyze_wellbeing(mood, text):
 You are an AI mental well-being support assistant.
 This is NOT medical advice.
 
-
 Analyze the user's input and return ONLY valid JSON.
 Do not include markdown or extra text.
 
