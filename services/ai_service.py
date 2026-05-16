@@ -39,6 +39,7 @@ JSON format:
   "recommendations": ["tip1", "tip2", "tip3"]
 }}
 
+
 User mood: {mood}
 User message: {text}
 """
